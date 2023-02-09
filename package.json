@@ -1,7 +1,6 @@
 {
-  "name": "docs-new",
-  "version": "0.0.0",
-  "private": true,
+  "name": "copicake-docs",
+  "version": "1.0.0",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
