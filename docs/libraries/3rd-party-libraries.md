@@ -8,4 +8,4 @@ If you have implemented any Copicake 3rd-party library by your own, feel free to
 
 ## Go
 
-https://github.com/bu/copicake-go made by **Buwei Chiu**
+👉 https://github.com/bu/copicake-go made by **Buwei Chiu**
