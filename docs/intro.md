@@ -1,5 +1,6 @@
 ---
 sidebar_position: 0
+slug: /
 ---
 
 # Introduction
@@ -12,6 +13,6 @@ Are you ready? Let's start!
 
 ---
 
-P.S. If you are looking for our main website, please check out copicake.com.
+P.S. If you are looking for our main website, please check https://copicake.com
 
-P.P.S. If you are our user already and you are looking for the editor, please check out editor.copicake.com.
+P.P.S. If you are our user already and you are looking for the editor, please check https://editor.copicake.com

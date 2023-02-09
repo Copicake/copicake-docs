@@ -11,15 +11,15 @@ const config = {
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-test-site.com",
+  url: "https://docs.copicake.com/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "Copicake", // Usually your GitHub org/user name.
+  projectName: "docs", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -45,7 +45,7 @@ const config = {
           editUrl: "https://github.com/Copicake/docs/tree/master/",
         },
         theme: {
-          customCss: require.resolve("./src/css/custom.css"),
+          // customCss: require.resolve("./src/css/custom.css"),
         },
       }),
     ],
@@ -55,20 +55,14 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: "img/docusaurus-social-card.jpg",
+      image: "img/social-card.png",
       navbar: {
         title: "Copicake",
         logo: {
-          alt: "My Site Logo",
+          alt: "Copicake Logo",
           src: "img/logo.png",
         },
         items: [
-          {
-            type: "doc",
-            docId: "intro",
-            position: "left",
-            label: "Docs",
-          },
           {
             href: "https://github.com/copicake",
             label: "GitHub",
@@ -83,8 +77,16 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "Tutorial",
-                to: "/docs/intro",
+                label: "API",
+                to: "/category/api",
+              },
+              {
+                label: "Libraries",
+                to: "/category/libraries",
+              },
+              {
+                label: "Errors",
+                to: "/errors",
               },
             ],
           },
