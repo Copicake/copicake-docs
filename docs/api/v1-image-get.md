@@ -6,15 +6,15 @@ sidebar_position: 1
 
 This API is used to get generated image.
 
-## Endpoint
+# Endpoint
 
 `https://api.copicake.com/v1/image/get?id=${renderingId}`
 
-## Method
+# Method
 
 `GET`
 
-## Authentication
+# Authentication
 
 Put this in your header:
 
@@ -22,15 +22,15 @@ Put this in your header:
 Authorization: Bearer [YOUR_API_KEY]
 ```
 
-## Request Data
+# Request Data
 
 No Request data is needed
 
-## Response
+# Response
 
 You will get a rendering response. For details, please check [here](/api/rendering)
 
-## Sample Codes
+# Sample Code
 
 <!-- prettier-ignore -->
 ```js
