@@ -98,6 +98,12 @@ In Copicake, we do support several different types of changes that users can mak
 
 ## Options
 
+### format
+
+You can specify the format of your generated image (`png` is the default format if not assigned).
+
+supported formats: `png` | `jpg`
+
 ### webhook_url
 
 If you webhook_url is `https://your_website.com/webhook_url`, you will receive a GET request to it like this:
@@ -109,6 +115,7 @@ If you webhook_url is `https://your_website.com/webhook_url`, you will receive a
 | rendering_id  | `xc17NtfyMaxPDCtz0ZjEZ4guBmiC`                                                                           | Your rendering id                  |
 | permanent_url | `https%3A%2F%2Fcopicake.s3.ap-northeast-1.amazonaws.com%2Frenderings%2Fxc17NtfyMaxPDCtz0ZjEZ4guBmiC.png` | encoded url to your rendered image |
 
+
 # Response
 
 You will get a rendering response with `processing` state. For details, please check [here](/api/rendering)
@@ -117,15 +124,19 @@ You will get a rendering response with `processing` state. For details, please c
 
 ```js
 const data = {
-  template_id: "jfwrFJdR3z1eF8BcEhSnAFyhxgOq", // your template id
+  // your template id
+  template_id: "jfwrFJdR3z1eF8BcEhSnAFyhxgOq",
+  // your changes
   changes: [
-    // your changes
     { name: "text-9so09m", text: "hello world", fill: "#ff0000" },
     { name: "image-yeavh7", src: "https://your_website.com/test.png" },
   ],
+  // your options
   options: {
-    // your options
+    // your webhook url that will receive a GET request
     webhook_url: "https://your_website.com/webhook_url",
+    // you can specify the format of your generated image
+    format: 'jpg'
   },
 };
 ```
