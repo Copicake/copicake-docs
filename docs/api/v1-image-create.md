@@ -36,12 +36,13 @@ In Copicake, we do support several different types of changes that users can mak
 
 ### Text Change
 
-| Field  | Sample Values | Explanations                                  |
-| ------ | ------------- | --------------------------------------------- |
-| name   | `text-9so09m` | **[Required]** The name of your element       |
-| text   | `hello world` | Any text you want to replace                  |
-| fill   | `#ff0000`     | Text color in the hex format                  |
-| stroke | `#ff0000`     | Stroke color in the hex format                |
+| Field               | Sample Values | Explanations                                  |
+| ------------------- | ------------- | --------------------------------------------- |
+| name                | `text-9so09m` | **[Required]** The name of your element       |
+| text                | `hello world` | Any text you want to replace                  |
+| fill                | `#ff0000`     | Text color in the hex format                  |
+| stroke              | `#ff0000`     | Stroke color in the hex format                |
+| textBackgroundColor | `#ff0000`     | Text background color in the hex format       |
 
 #### Sample:
 
