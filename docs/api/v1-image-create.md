@@ -36,43 +36,39 @@ In Copicake, we do support several different types of changes that users can mak
 
 ### Text Change
 
-| Field | Sample Values | Explanations                 |
-| ----- | ------------- | ---------------------------- |
-| name  | `text-9so09m` | The name of your element     |
-| text  | `hello world` | Any text you want to replace |
-| fill  | `#ff0000`     | Color in the hex format      |
+| Field  | Sample Values | Explanations                                  |
+| ------ | ------------- | --------------------------------------------- |
+| name   | `text-9so09m` | **[Required]** The name of your element       |
+| text   | `hello world` | Any text you want to replace                  |
+| fill   | `#ff0000`     | Text color in the hex format                  |
+| stroke | `#ff0000`     | Stroke color in the hex format                |
 
 #### Sample:
 
 ```json
 {
-  "changes": [
-    {
-      "name": "text-9so09m",
-      "text": "hello world",
-      "fill": "#ff0000"
-    }
-  ]
+  "name": "text-9so09m",
+  "text": "hello world",
+  "fill": "#ff0000",
+  "stroke": "#ff0000"
 }
 ```
 
 ### Image Change
 
-| Field | Sample Values                       | Explanations             |
-| ----- | ----------------------------------- | ------------------------ |
-| name  | `image-yeavh7`                      | The name of your element |
-| src   | `https://your_website.com/test.png` | Image URL                |
+| Field  | Sample Values                       | Explanations                            |
+| ------ | ----------------------------------- | --------------------------------------- |
+| name   | `image-yeavh7`                      | **[Required]** The name of your element |
+| src    | `https://your_website.com/test.png` | Image URL                               |
+| stroke | `#ff0000`                           | Stroke color in the hex format          |
 
 #### Sample:
 
 ```json
 {
-  "changes": [
-    {
-      "name": "image-yeavh7",
-      "src": "https://your_website.com/test.png"
-    }
-  ]
+  "name": "image-yeavh7",
+  "src": "https://your_website.com/test.png",
+  "stroke": "#ff0000"
 }
 ```
 
@@ -80,19 +76,37 @@ In Copicake, we do support several different types of changes that users can mak
 
 | Field   | Sample Values        | Explanations                                   |
 | ------- | -------------------- | ---------------------------------------------- |
-| name    | `qrcode-gskthd`      | The name of your element                       |
+| name    | `qrcode-gskthd`      | **[Required]** The name of your element        |
 | content | `https://google.com` | Any string that you want to put in the QR code |
+| fill    | `#ff0000`            | Fill color in the hex format                   |
+| stroke  | `#ff0000`            | Stroke color in the hex format                 |
 
 #### Sample:
 
 ```json
 {
-  "changes": [
-    {
-      "name": "qrcode-gskthd",
-      "content": "https://google.com"
-    }
-  ]
+  "name": "qrcode-gskthd",
+  "content": "https://google.com",
+  "fill": "#ff0000",
+  "stroke": "#ff0000"
+}
+```
+
+### Rect / Triangle / Circle Change
+
+| Field   | Sample Values        | Explanations                                   |
+| ------- | -------------------- | ---------------------------------------------- |
+| name    | `item-abcdef`        | **[Required]** The name of your element        |
+| fill    | `#ff0000`            | Fill color in the hex format                   |
+| stroke  | `#ff0000`            | Stroke color in the hex format                 |
+
+#### Sample:
+
+```json
+{
+  "name": "item-abcdef",
+  "fill": "#ff0000",
+  "stroke": "#ff0000"
 }
 ```
 
