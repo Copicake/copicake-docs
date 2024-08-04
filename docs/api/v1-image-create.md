@@ -51,7 +51,8 @@ In Copicake, we do support several different types of changes that users can mak
   "name": "text-9so09m",
   "text": "hello world",
   "fill": "#ff0000",
-  "stroke": "#ff0000"
+  "stroke": "#ff0000",
+  "textBackgroundColor": "#ff0000"
 }
 ```
 
